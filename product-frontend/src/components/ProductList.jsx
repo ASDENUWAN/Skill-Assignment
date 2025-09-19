@@ -12,7 +12,7 @@ function ProductList({ products }) {
                 <div className="small text-muted">{p.description}</div>
               </div>
               <div className="text-end">
-                <span className="fw-bold">₹{Number(p.price).toFixed(2)}</span>
+                <span className="fw-bold">Rs{Number(p.price).toFixed(2)}</span>
                 <div className="small text-muted">
                   {new Date(p.created_at).toLocaleString()}
                 </div>
